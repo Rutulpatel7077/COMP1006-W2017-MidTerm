@@ -57,7 +57,7 @@ $statement->closeCursor(); // close the connection
 
                             <td> <a class="glyphicon glyphicon-pencil" href="book_details.php?bookID=<?php echo $book['Id'] ?>"> </a> <!-- Add the Edit Button here --> </td>
 
-                            <td><a class="glyphicon glyphicon-remove" href="book_delete.php?bookID=<?php echo $book['Id'] ?>"> </a><!-- Add the Delete Button here --></td>
+                            <td><a class="glyphicon glyphicon-remove" href="book_delete.php?bookID=<?php echo $book['Id']?>"></a><!-- Add the Delete Button here --></td>
                         </tr>
                     <?php endforeach; ?>
 

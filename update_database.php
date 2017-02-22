@@ -14,7 +14,7 @@ if($isAddition == "1") {
 /* FIX THIS MYSQL QUERY */
 /*//////////////////////*/
 
-$query="INSERT INTO books (Title,Author,Price,Genre) VALUES (:book_title, :book_author,:book_price,:book_genre)";
+$query="INSERT INTO books (Title, Author, Price, Genre) VALUES (:book_title, :book_author, :book_price, :book_genre)";
 
 $statement = $db->prepare($query); // encapsulate the sql statement
 }
@@ -26,7 +26,7 @@ $bookID = filter_input(INPUT_POST, "IDTextField");
 /* FIX THIS MYSQL QUERY */
 /*//////////////////////*/
 
-$query = "UPDATE books SET Name = :book_name, Cost = :book_cost WHERE Id = :book_id ";
+$query = "UPDATE books SET Title = :book_title, Price = :book_price , Author = :book_author, Genre = :book_genre WHERE Id = :book_id ";
 $statement = $db->prepare($query); // encapsulate the sql statement
 $statement->bindValue(':book_id', $bookID);
 

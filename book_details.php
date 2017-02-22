@@ -8,12 +8,12 @@ if($bookID == 0) {
     $isAddition = 1;
 } else {
     $isAddition = 0;
-$query = "SELECT * FROM books WHERE Id = :book_id "; // SQL statement
-$statement = $db->prepare($query); // encapsulate the sql statement
-$statement->bindValue(':book_id', $gameID);
-$statement->execute(); // run on the db server
-$book = $statement->fetch(); // returns only one record
-$statement->closeCursor(); // close the connection
+        $query = "SELECT * FROM books WHERE Id = :book_id"; // SQL statement
+        $statement = $db->prepare($query); // encapsulate the sql statement
+        $statement->bindValue(':book_id', $bookID);
+        $statement->execute(); // run on the db server
+        $book = $statement->fetch(); // returns only one record
+        $statement->closeCursor(); // close the connection
 }
 /*//////////////////////*/
 /* YOUR CODE GOES HERE */

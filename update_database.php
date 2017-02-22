@@ -1,4 +1,14 @@
 <?php
+
+/**  FileName = update_database.PHP
+ *  Description :  This Page will Update Database
+ *  STUEDENT NAME = RUTUL PATEL
+ *  STUDENT NUMBER : 200335158
+ *  AUTHOR NAME : RUTUL PATEL
+ *  WEBSITE purpose : Assginment 1
+ *  
+ */
+
 include_once('database.php');
 
 $isAddition = filter_input(INPUT_POST, "isAddition");

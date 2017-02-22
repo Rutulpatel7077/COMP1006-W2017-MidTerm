@@ -1,4 +1,14 @@
 <?php
+/**  FileName = index.PHP
+ *  Description :  this is nn index page of assignmentt
+ *  STUEDENT NAME = RUTUL PATEL
+ *  STUDENT NUMBER : 200335158
+ *  AUTHOR NAME : RUTUL PATEL
+ *  WEBSITE purpose : Assginment 1
+ *  
+ */
+
+
 include_once('database.php');
 
 $query = "SELECT * FROM books"; // SQL statement

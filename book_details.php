@@ -1,4 +1,13 @@
 <?php
+/**  FileName = book_details.php
+ *  Description : This is a details Page of books table.
+ *  STUEDENT NAME = RUTUL PATEL
+ *  STUDENT NUMBER : 200335158
+ *  AUTHOR NAME : RUTUL PATEL
+ *  WEBSITE purpose : Assginment 1
+ *  
+ */
+
 include_once('database.php'); // include the database connection file
 
 $bookID = $_GET["bookID"];

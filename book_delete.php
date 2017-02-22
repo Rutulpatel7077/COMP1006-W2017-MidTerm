@@ -1,4 +1,12 @@
 <?php
+/**  FileName = book_delete.PHP
+ *  Description :  This Page will Delete book detais from the database
+ *  STUEDENT NAME = RUTUL PATEL
+ *  STUDENT NUMBER : 200335158
+ *  AUTHOR NAME : RUTUL PATEL
+ *  WEBSITE purpose : Assginment 1
+ *  
+ */
 include_once('database.php');
 
 /*//////////////////////*/
